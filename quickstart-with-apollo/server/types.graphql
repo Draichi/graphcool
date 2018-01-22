@@ -19,8 +19,18 @@ type Post @model {
   createdAt: DateTime! # read only, managed my Graphcool
   updatedAt: DateTime! #
   
-  description: String!
-  imageUrl: String!
+  countryName: String!
+  countryCode: String!
+  regionCode: Int!
+  maxLength: Int!
+  maxLWH: Int!
+  method: String!
+  minWeight: Int!
+  maxWeight: Int!
+  rate: Int!
+
   # Every relation also required a back-relation (to determine 1:1, 1:n or n:m)
   # author: User! @relation(name: "UserPosts")
+  # countryName,countryCode,regionCode,maxLength,maxLWH,method,minWeight,maxWeight,rate
+
 }
