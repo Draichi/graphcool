@@ -53,3 +53,16 @@ A big thank you to all contributors and supporters of this repository 💚
 Say hello in our [Slack](http://slack.graph.cool/) or visit the [Graphcool Forum](https://www.graph.cool/forum) if you run into issues or have questions. We love talking to you!
 
 ![](http://i.imgur.com/5RHR6Ku.png)
+
+
+# API endpoints
+
+```sh
+graphcool-framework info
+```
+
+https://api.graph.cool/simple/v1/cjcqdtlz90u7e0179fypnh44v
+
+https://api.graph.cool/relay/v1/cjcqdtlz90u7e0179fypnh44v
+
+wss://subscriptions.us-west-2.graph.cool/v1/cjcqdtlz90u7e0179fypnh44v
